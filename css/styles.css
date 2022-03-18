@@ -57,7 +57,7 @@ header>nav {
     margin-right: 2em;
 }
 
-.grid-apps>.item:nth-child(1):hover {
+.grid-apps>.item:hover {
     background-color: var(--own-red);
     cursor: pointer;
     transition: all ease-in-out;
