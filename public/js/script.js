@@ -40,4 +40,12 @@ window.onload = function () {
         win.focus();
 
     });
+
+    
+    let youPerfectCat = document.getElementsByClassName("item")[1];
+    youPerfectCat.addEventListener("click", function () {
+        var win = window.open("https://play.google.com/store/apps/details?id=com.whitessmoke.wallpaperboomerang&hl=es&gl=US", '_blank');
+        win.focus();
+
+    });
 }
